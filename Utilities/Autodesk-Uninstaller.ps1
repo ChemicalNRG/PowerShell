@@ -60,6 +60,21 @@ for ($i = 1; $i -lt 5; $i++) {
 # Uncomment the below line to delete the C:\Autodesk folder.
 # Remove-Item -Path 'C:\Autodesk' -Recurse -Force
 
+# Uncomment the below line to delete the C:\ProgramData\Autodesk folder.
+# Remove-Item -Path 'C:\ProgramData\Autodesk' -Recurse -Force
+
+# Uncomment the below line to delete the %APPDATA%\Autodesk folder.
+# Remove-Item -Path "$Env:APPDATA\Autodesk" -Recurse -Force
+
+# Uncomment the below line to delete the %APPDATA%\Autodesk Installer folder.
+# Remove-Item -Path "$Env:APPDATA\Autodesk Installer" -Recurse -Force
+
+# Uncomment the below line to delete the %LOCALAPPDATA%\Autodesk folder.
+# Remove-Item -Path "$Env:APPDATA\Autodesk" -Recurse -Force
+
+# Uncomment the below line to delete all items in the %TEMP% folder.
+# Remove-Item "$Env:TEMP\*" -Recurse -Force
+
 # Uncomment the below line to restart the computer automatically when complete.
 # Restart-Computer -Force
 
